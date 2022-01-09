@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
     --fondo-rojo: #BD4451;
     --negro: #000;
     --blanco: #fff;
+    --blanco-trasparente: #ffffff82;
 
 }
 *{

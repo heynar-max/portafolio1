@@ -9,10 +9,7 @@ const PortafolioCom = () => {
                     <img src={heynar} alt=''/>
                 </div>
                 <div className='right'>
-                    <div className='ensayo'>
-
-                    
-                    
+                    <div className='ensayo'>    
                 <h2>heynar soto holguin</h2>
                 <div className='porta'>
                 <h1>portafolio</h1>
@@ -30,14 +27,14 @@ const PortafolioStyled = styled.div`
     justify-content: center;
     background-color: var(--fondo-rojo);
     
-    .left{
-        width: 40%;
-        img{
-            width: 100%;
-            height: 100%;
+        .left{
+            width: 40%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            
         }
-        
-    }
 
     .right{
         width: 100%;
@@ -47,7 +44,7 @@ const PortafolioStyled = styled.div`
         .ensayo{
             
             width: 50%;
-    }
+        }
         h2{ 
             
             height : 6%;
@@ -59,26 +56,30 @@ const PortafolioStyled = styled.div`
             display: flex;
             justify-content: center;
             align-items: center;
-    }
-        .porta{
-        h1{ 
-            display: flex;
-            justify-content: space-evenly;
-            text-transform: uppercase;
-            color: var(--blanco);
-            font-size: 6rem;
-            margin-top: 10%;
+            font-family: 'Open Sans', sans-serif;
         }
-        p{
-            display: flex;
-            justify-content: space-evenly;
-            color: var(--blanco);
-            margin-top: 5%;
-            text-transform: uppercase;
-            
-            
-        }
+        .porta {
+            h1{ 
+                display: flex;
+                justify-content: space-evenly;
+                text-transform: uppercase;
+                color: var(--blanco);
+                font-size: 6rem;
+                margin-top: 10%;
+                font-family: 'Montserrat', sans-serif;
+            }
+            p{
+                display: flex;
+                justify-content: space-evenly;
+                color: var(--blanco);
+                margin-top: 5%;
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+                
+                
+            }
 
+        }
     }
     
 `;
