@@ -2,6 +2,7 @@ import React from 'react'
 import About from '../Components/About'
 import Education from '../Components/Education'
 import PortafolioCom from '../Components/PortafolioCom'
+import Skills from '../Components/Skills'
 
 const Portafolio = () => {
     return (
@@ -9,6 +10,7 @@ const Portafolio = () => {
             <PortafolioCom/>
             <About/>
             <Education/>
+            <Skills/>
         </>
     )
 }
