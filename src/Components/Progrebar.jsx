@@ -20,8 +20,8 @@ const ProgresbarStyled = styled.div`
     h6{
         font-size: 1.2rem;
         font-weight: 400;
-        color: var(--fondo-rojo);
-        font-family: 'Oswald', sans-serif;
+        color: var(--blanco);
+        font-family: 'Open Sans', sans-serif;
         text-transform: uppercase;
         
     }
@@ -35,8 +35,8 @@ const ProgresbarStyled = styled.div`
             padding-right: .5rem;
                 font-size: 1.2rem;
                 font-weight: 400;
-                color: var(--fondo-rojo);
-                font-family: 'Oswald', sans-serif;
+                color: var(--blanco);
+                font-family: 'Open Sans', sans-serif;
                 text-transform: uppercase;
                 
             
@@ -52,7 +52,7 @@ const ProgresbarStyled = styled.div`
             height:1rem; 
             justify-content: flex-end;
             align-items: flex-end;
-            background-color: var(--fondo-rojo);
+            background-color: var(--blanco);
             width: 0;
         }
     }

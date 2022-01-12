@@ -65,6 +65,7 @@ const SkillsStyled = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: var(--fondo-rojo);
 
     .title{
         display: flex;
@@ -73,7 +74,8 @@ const SkillsStyled = styled.div`
             font-size: 3rem;
             text-transform: uppercase;
             margin-top: 10rem;
-            color: var(--fondo-rojo)
+            color: var(--blanco);
+            font-family: 'Montserrat', sans-serif;
         
         }
     }
@@ -83,8 +85,9 @@ const SkillsStyled = styled.div`
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-row-gap: 3rem;
-        grid-column-gap: 5rem;
+        grid-column-gap: 7rem;
         margin-bottom: 10rem;
+        
         @media screen and (max-width: 1000px){
             grid-template-columns: repeat(2, 1fr);
         }
