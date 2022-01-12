@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-
+import evan from '../asset/evan.jpg'
 import resume from '../asset/gato.jpg'
 
 const MiPortafolio = () => {
@@ -11,36 +12,45 @@ const MiPortafolio = () => {
                     <h1>portafolio</h1>
                 </div>
             <div className='tarjetas'>
-                
                 <div className='card'>    
             <div className="left-content">
                 <img src={resume} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Lorem Ipsum</span></h4>
+                <h4>Vista <span>3D</span></h4>
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim 
-                    praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis! 
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.
+                    Es una pagina de ventas y de exhiicion de mis productos elaborados en el diseño 3D. 
+                    los coleccionistas de las sagas o del anime que elaboro son los que mas visitan mi pagina, 
+                    tiene imagenes y crud de registro y tambien carrito de compras
+                    </p>
                     
+                <div className="about-info">
+                    <div className="info-title">
+                        <p>si quiere conocer mas informacion de mi pagina este es el link</p>
+                        <p>Dale un vistazo <a href="https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/" target="_blank" rel="noreferrer">Vista 3D</a>.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+                <div className='card'>    
+            <div className="left-content">
+                <img src={evan} alt=""/>
+            </div>
+            <div className="right-content">
+                <h4>mi <span>portafolio</span></h4>
+                <p className="paragraph">
+                    Son mis practicas para ir familiarizando con el mundo de la programacion 
+                    son mis pruebas y mis conocimientos que cada dia que hago un proyecto
+                    voy queriendo mas mi trabajo, y quiere cada dia aprender mas y perfeecionarlo
                 </p>
                 <div className="about-info">
                     <div className="info-title">
-                        <p>Full Name</p>
-                        <p>Age</p>
-                        <p>Nationality </p>
-                        <p>Languages </p>
-                        <p>Location</p>
-                        <p>Service</p>
+                        <p>Estos son unos de mis portafolio que he elaborado </p>
+                        <p>Dale un vistazo <a href="https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/" target="_blank" rel="noreferrer">portafolio</a>.</p>
+                        
                     </div>
-                    <div className="info">
-                        <p>: Lorem Ipsum</p>
-                        <p>: 36</p>
-                        <p>: Spainsh </p>
-                        <p>: Spanish, French, English </p>
-                        <p>: London, United Kingdom</p>
-                        <p>: Freelance</p>
-                    </div>
+                    
                 </div>
             </div>
             </div>
@@ -105,13 +115,17 @@ const MiportafolioStyled = styled.div`
         width: 100%;
         
         h4{
+            
             font-size: 2rem;
             color: var(--fondo-rojo);
+            text-transform: uppercase;
             span{
                 font-size: 2rem;
+                
             }
         }
         .paragraph{
+            margin-top: 7rem;
             padding: 1rem 0;
 
             
