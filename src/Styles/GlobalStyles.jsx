@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
     --negro: #000;
     --blanco: #fff;
     --blanco-trasparente: #ffffff82;
-    --negro-trasparente: #111111be
+    --negro-trasparente: #dfdfdfab
 
 }
 *{
