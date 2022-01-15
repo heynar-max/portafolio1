@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import heynar from '../asset/foto.jpg'
+import heynar from '../asset/heyna.jpg'
 
 const PortafolioCom = () => {
     return (
