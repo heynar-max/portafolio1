@@ -39,6 +39,12 @@ const AboutStyled = styled.div`
             display: flex;
             justify-content: center;
             font-family: 'Montserrat', sans-serif;
+            @media screen and (max-width: 600px){
+                font-size: 2rem;
+            }
+            @media screen and (max-width: 390px){
+                font-size: 1.5rem;
+            }
         }
         .card{
             display: flex;
@@ -50,6 +56,15 @@ const AboutStyled = styled.div`
                     margin-top: 10rem;
                     display: flex;
                     font-family: 'Open Sans', sans-serif;
+                    @media screen and (max-width: 600px){
+                        font-size: 1rem;
+                        margin-top: 7rem;
+                        
+                    }
+                    @media screen and (max-width: 390px){
+                        font-size: .8rem;
+                        margin-top: 6rem;
+                    }
                     
             
             }
@@ -70,6 +85,13 @@ const AboutStyled = styled.div`
             color: var(--fondo-rojo);
             margin-bottom: 200px;
             font-family: 'Open Sans', sans-serif;
+            @media screen and (max-width: 600px){
+                font-size: 1rem;
+                
+            }
+            @media screen and (max-width: 390px){
+                font-size: .8rem;
+            }
         }
         
     }

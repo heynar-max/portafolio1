@@ -1,5 +1,6 @@
 import React from 'react'
 import About from '../Components/About'
+import Contacto from '../Components/Contacto'
 import Education from '../Components/Education'
 import MiPortafolio from '../Components/MiPortafolio'
 import PortafolioCom from '../Components/PortafolioCom'
@@ -13,6 +14,7 @@ const Portafolio = () => {
             <Education/>
             <MiPortafolio/>
             <Skills/>
+            <Contacto/>
             
         </>
     )
