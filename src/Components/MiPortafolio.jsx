@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import evan from '../asset/evan.jpg'
-import resume from '../asset/gato.jpg'
+import portafolio from '../asset/portafolio.jpg'
+import resume from '../asset/templo.jpg'
 
 const MiPortafolio = () => {
     return (
@@ -17,16 +17,16 @@ const MiPortafolio = () => {
             </div>
             <div className="right-content">
                 <h4>Vista 3D</h4>
-                <p className="paragraph">
-                    Es una pagina de ventas y de exhiicion de mis productos elaborados en el diseño 3D. 
-                    los coleccionistas de las sagas o del anime que elaboro son los que mas visitan mi pagina, 
-                    tiene imagenes y crud de registro y tambien carrito de compras
+                <p className="paragraph">It is a page of sales and exhibition of my products elaborated in 3D design. 
+                    The collectors of the sagas or the anime that I make are the ones who visit my page the most,
+                    it has images and registration crud and also a shopping cart
+                    
                     </p>
                     
                 <div className="about-info">
                     <div className="info-title">
-                        <p>si quiere conocer mas informacion de mi pagina este es el link</p>
-                        <p>Dale un vistazo <a href="https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/" target="_blank" rel="noreferrer">Vista 3D</a>.</p>
+                        <p>If you want to know more information about my page this is the link</p>
+                        <p>take a peek <a href="https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/" target="_blank" rel="noreferrer">Vista 3D</a>.</p>
                     </div>
                 </div>
             </div>
@@ -34,19 +34,20 @@ const MiPortafolio = () => {
 
                 <div className='card'>    
             <div className="left-content">
-                <img src={evan} alt=""/>
+                <img src={portafolio} alt=""/>
             </div>
             <div className="right-content">
                 <h4>mi portafolio</h4>
                 <p className="paragraph">
-                    Son mis practicas para ir familiarizando con el mundo de la programacion 
-                    son mis pruebas y mis conocimientos que cada dia que hago un proyecto
-                    voy queriendo mas mi trabajo, y quiere cada dia aprender mas y perfeecionarlo
+                They are my practices to become familiar with the world of programming
+                    They are my tests and my knowledge that every day I do a project
+                    I am loving my work more, and every day I want to learn more and improve it
+                    
                 </p>
                 <div className="about-info">
                     <div className="info-title">
-                        <p>Estos son unos de mis portafolio que he elaborado </p>
-                        <p>Dale un vistazo <a href="https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/" target="_blank" rel="noreferrer">portafolio</a>.</p>
+                        <p>These are some of my portfolio that I have designed </p>
+                        <p>take a peek <a href="https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/" target="_blank" rel="noreferrer">portafolio</a>.</p>
                         
                     </div>
                     
@@ -249,11 +250,11 @@ const MiportafolioStyled = styled.div`
                         margin-top: .1rem;
                     }
                 }
-            }
-            .info-title, .info{
-                p{
-                    padding: .3rem 0;
+                a{
+                    color: var(--negro);
                 }
+            }
+            
             }
         }
     }

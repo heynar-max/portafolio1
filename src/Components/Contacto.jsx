@@ -8,19 +8,19 @@ const Contacto = () => {
             <div className='container'>
                 
                 <div className='icono'>
-                        <Icons className="fab fa-linkedin" />
-                        <Icons className="fab fa-github" />
-                        <Icons className="fab fa-instagram-square" />
-                        <Icons className="fab fa-facebook-square" />
+                        <a href="https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/" target="_blank" rel="noreferrer" ><Icons className="fab fa-linkedin" /></a>
+                        <a href='https://github.com/heynar-max' target="_blank" rel="noreferrer" ><Icons className="fab fa-github" /></a>
+                        <a href='https://www.instagram.com/heynar_max/' target="_blank" rel="noreferrer"><Icons className="fab fa-instagram-square" /></a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><Icons className="fab fa-facebook-square" /></a>
                         </div>
                 <div className='content'>
                     <h3>I’M LOOKING FOR A JOB</h3>
                     <span>LET’S CONNECT: </span>
                 </div>
                 <div className='url'>
-                    <p>https://www.facebook.com/heynar.sotoholguin</p>
-                    <p>https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/</p>
-                    <p>https://www.instagram.com/heynar_max/</p>
+                    <a href="https://www.facebook.com/heynar.sotoholguin" target="_blank" rel="noreferrer"><p>https://www.facebook.com/heynar.sotoholguin</p></a>
+                    <a href="https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/" target="_blank" rel="noreferrer"><p>https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/</p></a>
+                    <a href="https://www.instagram.com/heynar_max/" target="_blank" rel="noreferrer"><p>https://www.instagram.com/heynar_max/</p></a>
 
                 </div>
 
@@ -163,6 +163,9 @@ const ContactoStyled = styled.div`
                 font-size: .4rem;
                 
             }
+        }
+        a{
+            color: var(--negro);
         }
     }
 `;
