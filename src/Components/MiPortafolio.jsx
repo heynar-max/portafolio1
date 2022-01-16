@@ -47,7 +47,7 @@ const MiPortafolio = () => {
                 <div className="about-info">
                     <div className="info-title">
                         <p>These are some of my portfolio that I have designed </p>
-                        <p>take a peek <a href="https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/" target="_blank" rel="noreferrer">portafolio</a>.</p>
+                        <p>take a peek <a href="https://portafolio2hey.netlify.app/" target="_blank" rel="noreferrer">portafolio</a>.</p>
                         
                     </div>
                     
