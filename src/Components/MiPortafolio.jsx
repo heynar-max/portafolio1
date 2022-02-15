@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import portafolio from '../asset/portafolio.jpg'
-import resume from '../asset/templo.jpg'
+import resume from '../asset/turis.jpg'
 
 const MiPortafolio = () => {
     return (
@@ -16,7 +16,7 @@ const MiPortafolio = () => {
                 <img src={resume} alt=""/>
             </div>
             <div className="right-content">
-                <h4>Vista 3D</h4>
+                <h4>Turismo</h4>
                 <p className="paragraph">It is a page of sales and exhibition of my products elaborated in 3D design. 
                     The collectors of the sagas or the anime that I make are the ones who visit my page the most,
                     it has images and registration crud and also a shopping cart
@@ -26,7 +26,7 @@ const MiPortafolio = () => {
                 <div className="about-info">
                     <div className="info-title">
                         <p>If you want to know more information about my page this is the link</p>
-                        <p>take a peek <a href="https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/" target="_blank" rel="noreferrer">Vista 3D</a>.</p>
+                        <p>take a peek <a href="https://turismobuga.netlify.app/" target="_blank" rel="noreferrer">Turismo</a>.</p>
                     </div>
                 </div>
             </div>
@@ -81,13 +81,13 @@ const MiportafolioStyled = styled.div`
             }
         }
         .tarjetas{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 1.5rem;
-        font-family: 'Open Sans', sans-serif;
-        margin-left: 3rem;
-        @media screen and (max-width: 1000px){
-            grid-template-columns: repeat(1,1fr);
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 1.5rem;
+            font-family: 'Open Sans', sans-serif;
+            margin-left: 3rem;
+            @media screen and (max-width: 1000px){
+                grid-template-columns: repeat(1,1fr);
             }
         }       
     .card{
@@ -96,70 +96,70 @@ const MiportafolioStyled = styled.div`
         border-radius: 10px;
         margin-top: 5rem;
         
-        display: flex;
-        margin-bottom: 15rem;
-        @media screen and (max-width:1000px){
-            margin-bottom: 4rem;
-        }
-        @media screen and (max-width:850px){
-            margin-bottom: 3rem;
-        }
-        @media screen and (max-width:700px){
-            margin-bottom: 1.5rem;
-        }
-        @media screen and (max-width:580px){
-            margin-bottom: 1rem;
-        }
-        &:hover{
-            transform: translateY(3px);
-            
-        @media screen and (max-width:1000px){
-            .left-content{
-                margin-bottom: 2rem;
-            }
-    }
-    }
-    
-    .left-content{
-        width: 100%;
-        img{
-            width:90%;
-            object-fit: cover;
-            border-radius: 10px;
-            margin-top: .3rem;
-            margin-left: .3rem;
-            
-        }
-    }
-    .right-content{
-        width: 100%;
-        
-        h4{
-            
-            font-size: 2rem;
-            color: var(--fondo-rojo);
-            text-transform: uppercase;
-            @media screen and (max-width:1160px){
-                font-size: 1.7rem;
-            }
+            display: flex;
+            margin-bottom: 15rem;
             @media screen and (max-width:1000px){
-                font-size: 2.5rem;
+                margin-bottom: 4rem;
             }
             @media screen and (max-width:850px){
-                font-size: 2rem;
+                margin-bottom: 3rem;
             }
             @media screen and (max-width:700px){
-                font-size: 1.6rem;
+                margin-bottom: 1.5rem;
             }
             @media screen and (max-width:580px){
-                font-size: 1.4rem;
+                margin-bottom: 1rem;
             }
-            @media screen and (max-width:465px){
-                font-size: 1rem;
+                &:hover{
+                    transform: translateY(3px);
+            
+                    @media screen and (max-width:1000px){   
+                        .left-content{
+                            margin-bottom: 2rem;
+                        }
+                    }
+                }
+    
+        .left-content{
+            width: 100%;
+            img{
+                width:90%;
+                object-fit: cover;
+                    border-radius: 10px;
+                margin-top: .3rem;
+                margin-left: .3rem;
+            
             }
-            @media screen and (max-width:400px){
-                font-size: .8rem;
-            }
+        }
+        .right-content{
+            width: 100%;
+        
+                h4{
+            
+                font-size: 2rem;
+                color: var(--fondo-rojo);
+                text-transform: uppercase;
+                @media screen and (max-width:1160px){
+                    font-size: 1.7rem;
+                }
+                @media screen and (max-width:1000px){
+                    font-size: 2.5rem;
+                }
+                @media screen and (max-width:850px){
+                    font-size: 2rem;
+                }
+                @media screen and (max-width:700px){
+                    font-size: 1.6rem;
+                }
+                    @media screen and (max-width:580px){
+                    font-size: 1.4rem;
+                }
+                    @media screen and (max-width:465px){
+                        font-size: 1rem;
+                    }
+                    @media screen and (max-width:400px){
+                        font-size: .8rem;
+                    }
             }
         }
         .paragraph{
@@ -257,7 +257,8 @@ const MiportafolioStyled = styled.div`
             
             }
         }
-    }
-}
+    
+
+
 `;
 export default MiPortafolio
